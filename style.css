@@ -143,15 +143,16 @@ option{
  }
  .content h1{
     color: white;
-    padding-top: 171px;
-    font-size: 2.8rem;
+    padding-top: 5.3rem;
+    font-size: 2.3rem;
+    
     line-height: 3.1rem;
     font-family: 'Manrope', sans-serif;
    
  }
 .content p{
     color: white;
-    font-size: 30px;
+    font-size: 2.0rem;
     width: 60%;
     /* padding-left: 50px;
     padding-left: 85px; */
@@ -471,6 +472,11 @@ color: #0f79af;
     .pic img {
         width: 159px;
     }
+    .img{
+        /* border: 6px solid gray; */
+        height: 70vh;
+        background-image:url(/images/amazon.jpg);
+    }
     .tv {
         margin-left: 294px;
     }
@@ -549,6 +555,7 @@ color: #0f79af;
     background-size: cover;
     background-position-x: 50%;
 }
+
     
 }
 @media only screen and (max-width: 600px){
@@ -677,10 +684,23 @@ color: #0f79af;
             padding-right: 0px
 
         }
+        .content h1{
+            font-size: 0.8rem;
+}
+
+        }
         .person i {
 
             transform: translateX(2px);
 
+    }
+    .content p {
+        font-size: 15px;
+    }
+    .button2 button {
+        /* padding: 20px 20px 20px 20px; */
+        padding: 0px 0px 0px 0px;
+        margin-top: 31px;
     }
     .tv {
         margin-left: 149px;
@@ -776,4 +796,9 @@ color: #0f79af;
         background: transparent;
     }
 
+}
+@media (max-width: 550px) and (orientation: portrait){
+    .img2 img{
+
+    }
 }
