@@ -687,6 +687,10 @@ color: #0f79af;
             width: 76px;
             height: 10vh;
         }
+        para {
+            font-size: 19px;
+            padding-top: 88px;
+        }
         .hidden {
             padding-top: 20px;
             font-size: 12px;
