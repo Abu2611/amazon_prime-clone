@@ -261,6 +261,7 @@ img{
     background-image: url(/images/remote.jpg);
     width: 100%;
     height: 70vh;
+    font-size: 20px;
 }
 .tv{
     color: white;
@@ -269,9 +270,13 @@ img{
     margin-left: 609px; 
     padding-top: 150px;
     margin-left: 711px;
+    margin-left: 19px;
     
     
 
+}
+.tv p{
+    font-size: 20px;
 }
    .tv h2{
     padding-bottom: 20px;
@@ -694,8 +699,29 @@ color: #0f79af;
             transform: translateX(2px);
 
     }
+    .unique button{
+        margin-left: 20px;
+    }
+    .ch h2 {
+        font-size: 21px;
+        margin-left: 17px;
+        padding-top: 69px;
+    }
+    .ch p {
+        font-size: 14px;
+        margin-left: 18px;
+        padding-top: -30px;
+    }
+    
     .content p {
         font-size: 15px;
+    }
+    .tv{
+        padding-top: 52px;
+    }
+    .tv h2 {
+        /* padding-bottom: 20px; */
+        font-size: 12px;
     }
     button{
         font-size: 12px;
