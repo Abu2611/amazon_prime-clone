@@ -869,6 +869,9 @@ color: #0f79af;
         outline: none;
         background: transparent;
     }
+    .unique{
+        margin-bottom: 20%;
+    }
     }
     @media only screen and (max-width: 300px){
 
