@@ -785,11 +785,11 @@ color: #0f79af;
     section1 {
         height: 50vh;
     }
-    .new-div {
-        padding-top: 0px;
-    }
+
     .new-div {
         width: 81%;
+        margin-top: 10%;
+        padding-top: 0px;
     }
     .button2 button {
         /* padding: 20px 20px 20px 20px; */
