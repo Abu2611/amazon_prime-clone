@@ -152,7 +152,7 @@ option{
  }
 .content p{
     color: white;
-    font-size: 2.0rem;
+    font-size: 30px;
     width: 60%;
     /* padding-left: 50px;
     padding-left: 85px; */
@@ -262,6 +262,7 @@ img{
     width: 100%;
     height: 70vh;
     font-size: 20px;
+
 }
 .tv{
     color: white;
@@ -269,9 +270,9 @@ img{
     font-size: 21px;
     margin-left: 609px; 
     padding-top: 150px;
-    margin-left: 711px;
-    margin-left: 19px;
-    
+    /* margin-left: 711px;
+    margin-left: 19px; */
+   
     
 
 }
@@ -279,8 +280,11 @@ img{
     font-size: 20px;
 }
    .tv h2{
-    padding-bottom: 20px;
+    text-align: end;
+    width: 95%;
+    /* padding-bottom: 167px; */
     font-size: 32px;
+    margin-top: 2rem;
    }
    .get button{
     padding: 10px 55px 10px 55px;
@@ -483,7 +487,7 @@ color: #0f79af;
         background-image:url(/images/amazon.jpg);
     }
     .tv {
-        margin-left: 294px;
+        margin-left: 400px;
     }
     .get button {
         margin-left: 324px;
@@ -693,7 +697,7 @@ color: #0f79af;
             font-size: 0.8rem;
 }
 
-        }
+     
         .person i {
 
             transform: translateX(2px);
@@ -824,10 +828,6 @@ color: #0f79af;
         outline: none;
         background: transparent;
     }
-
-}
-@media (max-width: 550px) and (orientation: portrait){
-    .img2 img{
-
     }
-}
+
+
