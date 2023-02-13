@@ -939,6 +939,11 @@ color: #0f79af;
     .unique{
         margin-bottom: 20%;
     }
+    .tv h2 {
+        /* padding-bottom: 20px; */
+        /* font-size: 11px; */
+        padding-right: 13px;
+    }
     }
     @media only screen and (max-width: 300px){
 
